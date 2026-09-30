@@ -1,0 +1,19 @@
+{
+  "editions": [
+    {
+      "language": "ja",
+      "grade": 4,
+      "headline": ["海と山の小さな新聞"],
+      "paragraphs": ["学校で本を読む。", "茨城県の森を調べる。"],
+      "caption": "星の写真",
+      "quiz": {
+        "question": "海と山のどちら？",
+        "answer": "海"
+      },
+      "schedule": [
+        {"type": "event", "title": "図書館へ行く"},
+        {"type": "task", "title": "宿題をする"}
+      ]
+    }
+  ]
+}

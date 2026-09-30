@@ -1,0 +1,38 @@
+{
+  "name": "kanji-grade",
+  "version": "0.1.0",
+  "description": "Check Japanese text against the MEXT elementary-school kanji grade allocation.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandy44/kanji-grade.git"
+  },
+  "homepage": "https://github.com/mandy44/kanji-grade#readme",
+  "bugs": {
+    "url": "https://github.com/mandy44/kanji-grade/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/kanji-grade.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "types": "./index.d.ts",
+  "files": [
+    "src/index.js",
+    "data/grades.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "sideEffects": false
+}
